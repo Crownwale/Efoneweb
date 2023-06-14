@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100%;
+    background: #1c0664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left,
+#right
+{
+    width: 400px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed #74ff02;
+}
+.list{
+    background: #e203ff;
+    margin: 30px;
+    height: 60px;
+    color: #fff;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.list img{
+    width: 10px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
